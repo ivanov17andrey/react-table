@@ -1,0 +1,52 @@
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+
+.form-control-dark:focus {
+	border-color: rgba(82, 88, 93, 0.5);
+	box-shadow: 0 0 0 0.2rem rgba(82, 88, 93, 0.5);
+}
+
+.page-item.active .page-link {
+	background-color: #343a40;
+	border-color: #343a40;
+	&:focus {
+		border-color: rgba(82, 88, 93, 0.5);
+		box-shadow: 0 0 0 0.2rem rgba(82, 88, 93, 0.5);
+	}
+}
+
+.page-link:focus {
+	// border-color: rgba(82, 88, 93, 0.5);
+	box-shadow: 0 0 0 0.2rem rgba(82, 88, 93, 0.5);
+}
+
+input.form-control {
+	-moz-appearance: textfield;
+	&::-webkit-outer-spin-button,
+	&::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+	}
+}
+
+.loader-fixed {
+	position: fixed;
+	top: 50vh;
+	left: 50vw;
+	transform: translate(-50%, -50%);
+	z-index: 10;
+}
+
+.arrow {
+	display: none;
+}
+.sortable {
+	.arrow{
+		display: inline-block;
+		transform: rotate(180deg);
+	}
+}
+.sortable-reverse {
+	.arrow{
+		transform: rotate(0deg);
+	}
+}
