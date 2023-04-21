@@ -14,7 +14,7 @@
     "react-dom": "^16.13.1",
     "react-loader-spinner": "^3.1.14",
     "react-paginate": "^6.3.2",
-    "react-scripts": "3.4.1",
+    "react-scripts": "5.0.1",
     "yup": "^0.29.2"
   },
   "scripts": {
